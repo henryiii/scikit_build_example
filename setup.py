@@ -15,12 +15,5 @@ except ImportError:
     raise
 
 setup(
-    name="scikit_build_example",
-    version="0.0.1",
-    description="a minimal example package (with pybind11)",
-    author="Henry Schreiner",
-    license="MIT",
-    packages=["scikit_build_example", 'scikit_build_example.some_module'],
-    package_dir={"": "src"},
     cmake_install_dir="src/scikit_build_example",
 )
