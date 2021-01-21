@@ -20,7 +20,7 @@ setup(
     description="a minimal example package (with pybind11)",
     author="Henry Schreiner",
     license="MIT",
-    packages=["scikit_build_example"],
+    packages=["scikit_build_example", 'scikit_build_example.some_module'],
     package_dir={"": "src"},
     cmake_install_dir="src/scikit_build_example",
 )
