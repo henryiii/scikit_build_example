@@ -4,7 +4,6 @@ requires = [
     "wheel",
     "pybind11~=2.6.0",
     "cmake",
-    "scikit-build",
+    "scikit-build @ git+https://github.com/scikit-build/scikit-build.git@6b6624681114e6670821351a125c6315845e6aa2",
 ]
-
 build-backend = "setuptools.build_meta"
