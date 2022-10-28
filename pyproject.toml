@@ -1,11 +1,10 @@
 [build-system]
 requires = [
-    "setuptools>=42",
-    "pybind11~=2.9.2",
-    "cmake>=3.22",
-    "scikit-build>=0.15.0",
+    "pybind11",
+    "scikit-build-core @ git+https://github.com/henryiii/scikit-build-core",
+    "setuptools_scm",
 ]
-build-backend = "setuptools.build_meta"
+build-backend = "scikit_build_core.setuptools.build_meta"
 
 [tool.isort]
 profile = "black"
